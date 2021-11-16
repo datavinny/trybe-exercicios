@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Davi Freitas](https://www.linkedin.com/in/davi-freitas-9834b3225/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
@@ -254,3 +255,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
+=======
+Trybe - Exercícios
+Contém todas as atividades desenvolvidas por mim durante minha tragetória na Trybe 
+
+"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
+>>>>>>> b2dc0ae93172f1a2bd73694ae6481028e2bffde0
