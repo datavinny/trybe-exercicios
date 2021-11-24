@@ -1,0 +1,43 @@
+ol {
+    background-color: yellow;
+}
+h1, h2, h3{
+    color: red;
+}
+.par {
+    color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+h1, h2, h3 em{
+    font-size: 40px;
+}
+li{
+    font-weight: 700;
+    font-size: 20px;
+}
+.tp{
+color: blue;
+}
+.java{
+    background-color: pink;
+}
+.aliados ul{
+    font-weight: 700;
+}
+#s :hover{
+    color:red;
+}
+#w :hover{
+    color:orange;
+}
+#d :hover{
+    color:blue;
+}
+#de :hover{
+    color:violet;
+}
+#t :hover{
+    color:green;
+}
