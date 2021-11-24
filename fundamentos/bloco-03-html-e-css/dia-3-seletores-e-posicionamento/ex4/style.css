@@ -1,0 +1,24 @@
+div :hover{
+border: 5px solid red;
+}
+
+#primary {
+    color: red;
+}
+#s {
+    color: blue;
+}
+#t {
+    color: yellow;
+    font-size: xx-large;
+}
+#d {
+    color: black;
+}
+#b {
+    color: rgb(184, 146, 146);
+}
+
+h3{
+    font-style: italic;
+}
