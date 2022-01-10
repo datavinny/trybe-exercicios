@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+</head>
+<body>
+
+  <main class="container">
+    <form action="" method="GET">
+      <div class="field">
+        <p>Dados Pessoais</p>
+
+        <label class="label" for="name">Nome</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="confidencial" id="name" maxlength="40">
+
+
+        <label class="label" for="email">Email</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="confidencial" id="email" maxlength="50">
+
+        <label class="label" for="cpf">CPF</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="confidencial" id="cpf" maxlength="11">
+
+        <label class="label" for="end">Endereço</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="confidencial" id="end" maxlength="200">
+
+        <label class="label" for="cidade">Cidade</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="confidencial" id="cidade" maxlength="28">
+    
+        <!-- options via js -->
+        <div class="select is-primary is-rounded is-normal">
+          <label class="label" for="estado">Estado</label>
+        <select class="select" required name="confidencial" id="estado"></select>
+        </div>
+
+        <div class="control">
+        <label class="label radio" for="tipo1">Casa</label>
+        <input required type="radio" name="confidencial" id="tipo1" value="casa">
+
+        <label class="label radio" for="tipo2">Apartamento</label>
+        <input required type="radio" name="confidencial" id="tipo2" value="apartamento">  
+        </div>
+      </div>
+
+      <div class="field">
+        <p>Último Emprego</p>
+
+        <label class="label" for="resumo">Resumo do currículo</label>
+        <textarea class="textarea is-primary" required name="lj" id="resumo" cols="30" rows="10" maxlength="1000"></textarea>
+
+        <label class="label" for="job">Cargo</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="lj" id="job" maxlength="40">
+
+        <label class="label" for="jd">Descrição do cargo</label>
+        <input class="input is-primary is-normal is-rounded" required type="text" name="lj" id="jd" maxlength="500">
+
+        <label class="label" for="datepicker">Data de início</label>
+        <input class="input is-primary is-normal is-rounded" required type="date" name="lj" id="datepicker">
+      </div>
+      
+      <button class="button is-success is-fullwidth" type="submit">Enviar</button>
+    </form>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
